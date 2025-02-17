@@ -50,4 +50,4 @@ jobs:
 
       - name: Log image name
         run: |
-          echo "Image URI: ${IMAGE_NAME}"
+          echo "URI: ${IMAGE_NAME}"
