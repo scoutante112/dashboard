@@ -70,7 +70,7 @@ func (p *panelMessageData) send(c *botcontext.BotContext) (uint64, error) {
 	}
 
 	if !p.IsPremium {
-		e.SetFooter("Powered by ticketsbot.cloud", "https://ticketsbot.cloud/assets/img/logo.png")
+		e.SetFooter("Powered by labnat.se", "https://upload.labnat.se/PPXJRMMIDFpt.png")
 	}
 
 	data := rest.CreateMessageData{
